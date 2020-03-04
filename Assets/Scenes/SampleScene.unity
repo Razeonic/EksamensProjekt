@@ -234,7 +234,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 6dfda83d0658ea144b4448af453b596d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6dfda83d0658ea144b4448af453b596d,
         type: 3}
@@ -258,7 +258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dfda83d0658ea144b4448af453b596d, type: 3}
---- !u!1001 &624396398
+--- !u!1001 &479016944
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -268,22 +268,22 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.021079
+      value: 9.697403
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.18
+      value: -16.006641
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.27
+      value: -18.724403
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
@@ -293,17 +293,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 804b81cd60536ab46a1c866746ee8aa0,
         type: 3}
