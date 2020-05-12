@@ -8,11 +8,19 @@ public class Gun : MonoBehaviour
 
     public Camera fpsCam;
     public ParticleSystem muzzleFlash;
+    AudioSource m_shootingSound;
+
+    void Start()
+    {
+        m_shootingSound = GetComponent<AudioSource>();
+    }
+
 
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
+            m_shootingSound.Play();
             Shoot();
         }
     }
