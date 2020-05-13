@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManagement : MonoBehaviour
+public class SceneToMain : MonoBehaviour
 {
 
     public bool loadNextScene = false;
@@ -11,8 +11,8 @@ public class SceneManagement : MonoBehaviour
     {
         if (loadNextScene)
         {
-            Debug.Log("load: SceneTwo");
-            SceneManager.LoadScene(2);
+            Debug.Log("load: Scene1");
+            SceneManager.LoadScene(1);
         }
 
 
