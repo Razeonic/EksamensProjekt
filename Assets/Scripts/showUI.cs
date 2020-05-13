@@ -18,13 +18,14 @@ public class showUI : MonoBehaviour
         {
             uiObject.SetActive(true);
             StartCoroutine("WaitForSec");
+            Debug.Log("test");
         }
     }
     IEnumerator WaitForSec()
     {
         yield return new WaitForSeconds(5);
         Destroy(uiObject);
-        Destroy(gameObject);
+       
     }
 
 }
